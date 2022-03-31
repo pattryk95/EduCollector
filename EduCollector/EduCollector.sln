@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6A6072E-FC25-4227-9D15-2A859D933D6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C1DF8431-4CC6-4AAE-9E9E-F4FC8BF72170}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{29CE73D8-8C9F-4BEC-A3D2-17A4D1C257C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BF66C906-390D-44E3-B0DE-D3E668D6E578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B32F4E83-A951-4ACB-96BD-54EBBEE76128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3840EE1C-9BE9-4D61-95AA-59DF43AC5E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCollector.Domain", "EduCollector.Domain\EduCollector.Domain.csproj", "{C2B38999-8DE0-453A-8ADC-BE954DD98BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B38999-8DE0-453A-8ADC-BE954DD98BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B38999-8DE0-453A-8ADC-BE954DD98BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B38999-8DE0-453A-8ADC-BE954DD98BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B38999-8DE0-453A-8ADC-BE954DD98BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29CE73D8-8C9F-4BEC-A3D2-17A4D1C257C3} = {C6A6072E-FC25-4227-9D15-2A859D933D6B}
+		{BF66C906-390D-44E3-B0DE-D3E668D6E578} = {C6A6072E-FC25-4227-9D15-2A859D933D6B}
+		{B32F4E83-A951-4ACB-96BD-54EBBEE76128} = {C6A6072E-FC25-4227-9D15-2A859D933D6B}
+		{3840EE1C-9BE9-4D61-95AA-59DF43AC5E3F} = {C6A6072E-FC25-4227-9D15-2A859D933D6B}
+		{C2B38999-8DE0-453A-8ADC-BE954DD98BBE} = {BF66C906-390D-44E3-B0DE-D3E668D6E578}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32097158-4687-4EB8-A2EC-E389730D01E4}
+	EndGlobalSection
+EndGlobal
