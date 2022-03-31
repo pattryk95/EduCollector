@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCollector.Domain.Entites
+namespace EduCollector.Domain
 {
-    public class Category
+    public class Category : AuditableEntity
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }
