@@ -1,12 +1,13 @@
-﻿using System;
+﻿using EduCollector.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCollector.Application.Contracts.Persistence
+namespace EduCollector.Application
 {
-    internal class IPostRepository
+    public interface IPostRepository : IAsyncRepository<Post>
     {
     }
 }

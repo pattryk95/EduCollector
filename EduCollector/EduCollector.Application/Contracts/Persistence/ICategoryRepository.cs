@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EduCollector.Domain;
 
-namespace EduCollector.Application.Contracts.Persistence
+namespace EduCollector.Application
 {
-    internal class ICategoryRepository
+    public interface ICategoryRepository : IAsyncRepository<Category>
     {
     }
 }
