@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Application
 {
-    public interface IWebinarsRepository : IAsyncRepository<Webinars>
+    public interface IWebinarRepository : IAsyncRepository<Webinar>
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Domain
 {
-    public class Webinars
+    public class Webinar
     {
         public int Id { get; set; }
 
