@@ -17,4 +17,11 @@
     <ProjectReference Include="..\EduCollector.Domain\EduCollector.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Functions\Categories\Commands\" />
+    <Folder Include="Functions\Posts\Commands\CreatePost\" />
+    <Folder Include="Functions\Webinars\Command\" />
+    <Folder Include="Functions\Webinars\Queries\" />
+  </ItemGroup>
+
 </Project>
