@@ -9,5 +9,6 @@ namespace EduCollector.Application
 {
     public interface IPostRepository : IAsyncRepository<Post>
     {
+        Task<bool> IsNameAndAuthorAlreadyExist(string title, string author);
     }
 }

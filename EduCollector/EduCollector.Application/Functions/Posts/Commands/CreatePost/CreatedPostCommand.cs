@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Application
 {
-    public class CreatedPostCommand : IRequest<int>
+    public class CreatedPostCommand : IRequest<CreatedPostCommandResponse>
     {
         public int PostId { get; set; }
         public string Title { get; set; }
