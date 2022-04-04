@@ -19,6 +19,10 @@ namespace EduCollector.Application
             CreateMap<Category, CategoryInListViewModel>();
             CreateMap<Category, CategoryPostDto>();
             CreateMap<Category, CategoryPostListViewModel>();
+
+            CreateMap<Post, CreatedPostCommand>().ReverseMap();
+            CreateMap<Post, UpdatePostCommand>().ReverseMap();
+            CreateMap<Post, DeletePostCommand>().ReverseMap();
         }
     }
 }
