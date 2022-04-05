@@ -23,6 +23,8 @@ namespace EduCollector.Application
             CreateMap<Post, CreatedPostCommand>().ReverseMap();
             CreateMap<Post, UpdatePostCommand>().ReverseMap();
             CreateMap<Post, DeletePostCommand>().ReverseMap();
+
+            CreateMap<Category, CreatedCategoryCommand>().ReverseMap();
         }
     }
 }
