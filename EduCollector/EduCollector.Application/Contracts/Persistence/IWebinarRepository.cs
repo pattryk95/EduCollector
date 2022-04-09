@@ -9,5 +9,7 @@ namespace EduCollector.Application
 {
     public interface IWebinarRepository : IAsyncRepository<Webinar>
     {
+        Task<List<Webinar>> GetPagedWebinarsForDate(SearchOptionsWebinars options, int page, int pageSize, DateTime? date);
+        Task<int> GetTotalCountOfWebinarsForDate(SearchOptionsWebinars options, DateTime? date);
     }
 }
