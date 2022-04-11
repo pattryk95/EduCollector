@@ -4,6 +4,6 @@ namespace EduCollector.Application
 {
     public interface ICategoryRepository : IAsyncRepository<Category>
     {
-        Task<List<Category>> GetCategoriesWithPast(SearchCategoryOptions searchCategory);
+        Task<List<Category>> GetCategoriesWithPost(SearchCategoryOptions searchCategory);
     }
 }
