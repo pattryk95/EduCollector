@@ -14,6 +14,12 @@ namespace EduCollector.Application
         private readonly IPostRepository _postRepository;
         private readonly IMapper _mapper;
 
+        public CreatedPostCommandHandler(IPostRepository postRepository, IMapper mapper)
+        {
+            _postRepository = postRepository;
+            _mapper = mapper;
+        }
+
         public async Task<CreatedPostCommandResponse> 
             Handle(CreatedPostCommand request, 
             CancellationToken cancellationToken)

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduCollector.Application.UnitTest.Mocks
+namespace EduCollector.Application.UnitTest
 {
     public class RepositoryMocks
     {
