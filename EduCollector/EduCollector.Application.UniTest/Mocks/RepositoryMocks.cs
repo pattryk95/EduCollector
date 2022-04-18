@@ -363,7 +363,7 @@ Zazwyczaj w tym cyklu pokazuje programy, z które moim bardzo zmieniają przepł
 
             mockWebinarRepository.Setup(repo => repo.GetPagedWebinarsForDate
             (It.IsAny<SearchOptionsWebinars>(), It.IsAny<int>(), It.IsAny<int>(), It.IsAny<DateTime?>()))
-            .ReturnsAsync((DateTime date, int page, int pageSize) =>
+            .ReturnsAsync((SearchOptionsWebinars options, int page, int pageSize, DateTime date) =>
             {
                 var matches = webinars.Where(x => x.Date.Month == date.Month && x.Date.Year == date.Year)
                 .Skip((page - 1) * pageSize).Take(pageSize).ToList();
@@ -373,7 +373,7 @@ Zazwyczaj w tym cyklu pokazuje programy, z które moim bardzo zmieniają przepł
 
             mockWebinarRepository.Setup(repo => repo.GetTotalCountOfWebinarsForDate
             (It.IsAny<SearchOptionsWebinars>(), It.IsAny<DateTime?>()))
-            .ReturnsAsync((DateTime date) =>
+            .ReturnsAsync((SearchOptionsWebinars options, DateTime date) =>
             {
                 var matches = webinars.Count
                 (x => x.Date.Month == date.Month && x.Date.Year == date.Year);

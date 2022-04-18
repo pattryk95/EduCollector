@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Application
 {
-    internal class GetCategoriesWithPostListQuery : IRequest<List<CategoryPostListViewModel>>
+    public class GetCategoriesWithPostListQuery : IRequest<List<CategoryPostListViewModel>>
     {
         public SearchCategoryOptions searchCategory { get; set; }
     }

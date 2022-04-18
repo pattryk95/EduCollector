@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Application
 {
-    internal class CreatedCategoryCommandHandler : IRequestHandler<CreatedCategoryCommand, CreatedCategoryCommandResponse>
+    public class CreatedCategoryCommandHandler : IRequestHandler<CreatedCategoryCommand, CreatedCategoryCommandResponse>
     {
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;

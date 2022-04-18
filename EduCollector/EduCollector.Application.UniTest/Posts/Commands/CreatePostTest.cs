@@ -99,7 +99,7 @@ namespace EduCollector.Application.UnitTest
             response.Success.ShouldBe(false);
             response.ValidationErrors.Count.ShouldBe(1);
             allPosts.Count.ShouldBe(allPostsBeforeCount);
-            response.PostId.ShouldNotBeNull();
+            response.PostId.ShouldBeNull();
         }
 
         [Fact]
@@ -124,7 +124,7 @@ namespace EduCollector.Application.UnitTest
             response.Success.ShouldBe(false);
             response.ValidationErrors.Count.ShouldBe(1);
             allPosts.Count.ShouldBe(allPostsBeforeCount);
-            response.PostId.ShouldNotBeNull();
+            response.PostId.ShouldBeNull();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EduCollector.Application
 {
-    internal class CategoryPostListViewModel
+    public class CategoryPostListViewModel
     {
         public int CategoryId { get; set; }
         public string Name { get; set; }

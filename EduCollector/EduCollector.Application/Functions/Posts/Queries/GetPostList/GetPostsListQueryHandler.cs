@@ -23,7 +23,7 @@ namespace EduCollector.Application
         public async Task<List<PostInListViewModel>> Handle(GetPostsListQuery request, CancellationToken cancellationToken)
         {
             var all = await _postRepository.GetAllAsync();
-            var allordered = all.OrderBy(x => x.Data);
+            var allordered = all.OrderBy(x => x.Date);
 
             return _mapper.Map<List<PostInListViewModel>>(all);
         }
