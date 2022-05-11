@@ -10,6 +10,6 @@ namespace EduCollector.Application
     {
         All = 0,
         FirstBestThisMonth = 2,
-        FirstBestAllTeTime = 3,
+        FirstBestAllTheTime = 3,
     }
 }

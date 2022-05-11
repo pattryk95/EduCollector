@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EduCollector.Application\EduCollector.Application.csproj" />
     <ProjectReference Include="..\EduCollector.Domain\EduCollector.Domain.csproj" />
   </ItemGroup>
 
