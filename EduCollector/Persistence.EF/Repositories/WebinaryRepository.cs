@@ -36,7 +36,7 @@ namespace Persistence.EF
         {
             if (options == SearchOptionsWebinars.MonthAndYear && date.HasValue)
             {
-                return await _dbContext.Webinars.CountAsync(x=>x.Date.Month == date.Value.Month && x.Date.Year == date.Value.Year)
+                return await _dbContext.Webinars.CountAsync(x => x.Date.Month == date.Value.Month && x.Date.Year == date.Value.Year);
             }
             if (options == SearchOptionsWebinars.Year && date.HasValue)
             {

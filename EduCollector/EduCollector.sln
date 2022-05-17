@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCollector.Application", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduCollector.Application.UnitTest", "EduCollector.Application.UniTest\EduCollector.Application.UnitTest.csproj", "{1E8BCDA9-C559-40E8-A99D-AB06B2FE823D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8EF78608-CDDE-40DA-9762-0C3965BCC29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8EF78608-CDDE-40DA-9762-0C3965BCC29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.EF", "Persistence.EF\Persistence.EF.csproj", "{2D866A98-8F40-47E4-9440-8851FDBF7F40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.EF", "Persistence.EF\Persistence.EF.csproj", "{2D866A98-8F40-47E4-9440-8851FDBF7F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduCollector.Api", "EduCollector.Apit\EduCollector.Api.csproj", "{F22C83A3-44B2-45EA-844C-6C7F66891070}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2D866A98-8F40-47E4-9440-8851FDBF7F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D866A98-8F40-47E4-9440-8851FDBF7F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D866A98-8F40-47E4-9440-8851FDBF7F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22C83A3-44B2-45EA-844C-6C7F66891070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22C83A3-44B2-45EA-844C-6C7F66891070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22C83A3-44B2-45EA-844C-6C7F66891070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22C83A3-44B2-45EA-844C-6C7F66891070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{1E8BCDA9-C559-40E8-A99D-AB06B2FE823D} = {C1DF8431-4CC6-4AAE-9E9E-F4FC8BF72170}
 		{8EF78608-CDDE-40DA-9762-0C3965BCC29E} = {B32F4E83-A951-4ACB-96BD-54EBBEE76128}
 		{2D866A98-8F40-47E4-9440-8851FDBF7F40} = {B32F4E83-A951-4ACB-96BD-54EBBEE76128}
+		{F22C83A3-44B2-45EA-844C-6C7F66891070} = {29CE73D8-8C9F-4BEC-A3D2-17A4D1C257C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32097158-4687-4EB8-A2EC-E389730D01E4}

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.EF
 {
-    internal class BaseRepository<T> : IAsyncRepository<T> where T : class
+    public class BaseRepository<T> : IAsyncRepository<T> where T : class
     {
         protected readonly EduCollectorContext _dbContext;
         public BaseRepository(EduCollectorContext dbContext)
